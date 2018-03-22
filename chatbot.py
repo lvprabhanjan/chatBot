@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, request, redirect
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/input')
 def input():
    return render_template('input.html')
 
